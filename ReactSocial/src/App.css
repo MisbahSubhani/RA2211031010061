@@ -1,0 +1,56 @@
+/* Universal Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+  }
+  
+  /* Feed, TopUsers, TrendingPosts Container */
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .section {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* 📱 Responsive for Phones */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .main-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .section {
+      width: 90%;
+      margin: 10px 0;
+    }
+  }
+  
