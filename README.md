@@ -1,11 +1,6 @@
-REACT SOCIAL APP 
+# 🚀 React Social Media App
 
-1.npm -i  
+## 📦 Install Dependencies
+### ▶️ Start the Development Server
 
-2.npm run dev
 
-
-Average Calculator
-
-1.npm -i
-2.node index.js
